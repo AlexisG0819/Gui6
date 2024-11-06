@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoo"
+    android:orientation="vertical"
+    tools:context=".AddBudget">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="center"
+        android:text="CREAR PRESUPUESTO"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edtATitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:ems="10"
+        android:hint="Título del presupuesto"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:id="@+id/edtAMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:ems="10"
+        android:hint="Monto presupuesto"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <Button
+        android:id="@+id/btnGuardarPresupuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="@android:color/transparent"
+        android:outlineProvider="none"
+        android:text="Guardar"
+        android:textColor="@color/white"
+        android:textColorHighlight="#673AB7"
+        android:textColorHint="#673AB7"
+        android:textColorLink="@color/black"
+        android:textSize="25sp" />
+</LinearLayout>

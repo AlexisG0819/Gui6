@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginProject</string>
+    <string name="default_web_client_id" translatable="false">TU_ID_DE_CLIENTE_WEB</string>
+</resources>
