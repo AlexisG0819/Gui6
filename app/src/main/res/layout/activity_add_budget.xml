@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondoo"
+    android:background="@drawable/presu"
     android:orientation="vertical"
     tools:context=".AddBudget">
     <TextView
@@ -13,7 +13,7 @@
         android:layout_marginTop="25sp"
         android:gravity="center"
         android:text="CREAR PRESUPUESTO"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp" />
     <EditText
         android:id="@+id/edtATitulo"
@@ -25,8 +25,8 @@
         android:ems="10"
         android:hint="Título del presupuesto"
         android:inputType="text"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <EditText
         android:id="@+id/edtAMonto"
         android:layout_width="match_parent"
@@ -37,8 +37,8 @@
         android:ems="10"
         android:hint="Monto presupuesto"
         android:inputType="numberDecimal"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
     <Button
         android:id="@+id/btnGuardarPresupuesto"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:backgroundTint="@android:color/transparent"
         android:outlineProvider="none"
         android:text="Guardar"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorHighlight="#673AB7"
         android:textColorHint="#673AB7"
         android:textColorLink="@color/black"

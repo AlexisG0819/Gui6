@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
 
 
-        android:background="@drawable/fondo1"
+        android:background="@drawable/acercade"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
@@ -23,7 +23,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
             android:text="Acerca de \n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:text="Desarrolladores: \n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -43,7 +43,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:text="Einer Alexis Gutiérrez Bautista\n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -53,7 +53,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="8dp"
             android:text="Mario Faustino Padilla Lopéz \n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Versión: \n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="1.0.0  \n\n"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -81,9 +81,9 @@
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:background="@drawable/android"
+            android:background="@drawable/androide"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/android" />
+            app:srcCompat="@drawable/androide" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </RelativeLayout >
